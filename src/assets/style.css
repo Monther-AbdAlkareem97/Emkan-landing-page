@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Almarai";
+  src: url("./fonts/Almarai-Bold.ttf") format("truetype"),
+    url("./fonts/Almarai-ExtraBold.ttf") format("truetype"),
+    url("./fonts/Almarai-Light.ttf") format("truetype"),
+    url("./fonts/Almarai-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Almarai", sans-serif;
+}

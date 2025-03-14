@@ -2,12 +2,19 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "./assets/main.css";
+import "./assets/style.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+library.add(fas, fab);
 
-library.add(faHome, faUser);
+const app = createApp(App);
+app.component("font-awesome-icon", FontAwesomeIcon);
+app.use(router);
+app.mount("#app");
 
-Vue.component("font-awesome-icon", FontAwesomeIcon);
-
-createApp(App).use(router).mount("#app");
+AOS.init();
