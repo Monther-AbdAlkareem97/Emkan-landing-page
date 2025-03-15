@@ -8,7 +8,7 @@
     >
       <div data-aos="fade-up" class="flex justify-center w-1/2">
         <img
-          src="../assets/photo/control-everything-2.png"
+          src="/public/photo/control-everything-2.png"
           class="md:h-96 h-60 md:w-full border-solid border-black rounded-full"
           alt="photo"
         />
@@ -37,7 +37,7 @@
       </div>
       <div data-aos="fade-up" class="w-1/2">
         <img
-          src="../assets/photo/momo-studio-s71dyDnYtXs-unsplash.jpg"
+          src="/public/photo/momo-studio-s71dyDnYtXs-unsplash.jpg"
           class="md:h-96 h-60 md:w-full"
           alt=""
         />
